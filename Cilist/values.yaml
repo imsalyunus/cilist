@@ -1,0 +1,31 @@
+replicaCount: 1
+
+image:
+  repo: ikanpaus/frontend
+  tag: "v1"
+
+serpis:
+  svc: LoadBalancer
+
+manifest:
+  back: backend
+  front: deployfe
+  cmapbe: cmap 
+  cfront: cmapfe
+  svc: serpisfe
+  ing: ingressfe
+
+data:
+  user: admin
+  pass: Cilsy2023
+  debe: people
+  host: amazon-whale.cyvxmusxt9s8.ap-southeast-2.rds.amazonaws.com
+  dom: pisang.my.id
+  path: Prefix
+  port: 80
+  dbport: 3306
+  baseport: 5000
+  feport: 3000
+  beurl: http://a9df4527c32b04873b77b01cb671a308-1902618101.ap-southeast-2.elb.amazonaws.com:5000
+
+

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cmapfe
+data:
+  REACT_APP_BACKEND_URL: "{{ .Values.data.beurl }}"
+

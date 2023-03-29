@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployfe
+spec:
+  selector:
+    matchLabels:
+      app: deployfe
+  template:
+    metadata:
+      labels:
+        app: deployfe
+    spec:
+      containers:
+      - name: deployfe
+        image: ikanpaus/frontend:v1
+        ports:
+        - containerPort: 3000
+        envFrom:
+          - configMapRef: 
+              name: cmapfe
+

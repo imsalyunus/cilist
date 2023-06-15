@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repo: ikanpaus/frontend
-  tag: "v1"
+  repo: imsalyunus/cilist-fe-imsal
+  tag: "latest"
 
 serpis:
   svc: LoadBalancer

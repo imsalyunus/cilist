@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: {{ .Values.manifest.back }}
-        image: ikanpaus/backend:v1
+        image: imsalyunus/cilist-bee-imsal:latest
         ports:
         - containerPort: 80
         envFrom:

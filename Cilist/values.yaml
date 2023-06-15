@@ -17,10 +17,10 @@ manifest:
 
 data:
   user: admin
-  pass: Cilsy2023
-  debe: people
-  host: amazon-whale.cyvxmusxt9s8.ap-southeast-2.rds.amazonaws.com
-  dom: pisang.my.id
+  pass: cilist123
+  debe: cilist
+  host: cilist.ceigi6fgqzn9.ap-southeast-2.rds.amazonaws.com
+  dom: imsalyunus.my.id
   path: Prefix
   port: 80
   dbport: 3306
